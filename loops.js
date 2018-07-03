@@ -17,13 +17,3 @@ function whileLoop(n) {
   return "done"
 }
 
-function doWhileLoop(array) {
-  function mayebTrue() {
-  return Math.random() >= 0.5
-  }
-}
-do {
-  newArray = doWhileLoop(array)
-    array.shift() > 0 && maybeTrue()
-   return newArray
-} while (maybeTrue()) 
