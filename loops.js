@@ -19,6 +19,8 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   do {
+    array.slice(0);
+    
   } while ()
   return array
 }
