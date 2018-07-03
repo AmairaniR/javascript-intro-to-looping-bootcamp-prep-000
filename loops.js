@@ -18,10 +18,11 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(array) {
+  var array = [] 
+  array.pop
   do {
     function maybeTrue() {
   return Math.random() >= 0.5
-  var array = []
 }
   } while (array.length > 0 && maybeTrue())
   return array
