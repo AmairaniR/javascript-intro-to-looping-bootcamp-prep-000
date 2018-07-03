@@ -22,6 +22,6 @@ function doWhileLoop(array) {
     function maybeTrue() {
   return Math.random() >= 0.5
 }
-  } while (array.pop <= 0 && maybeTrue())
+  } while (array.shift <= 0 && maybeTrue())
   return array
 }
